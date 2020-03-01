@@ -70,6 +70,7 @@ let items = [ new Product(1,"s8","samsung",250,1),
 ];
 
 
+// Cart
 let cart = new Map();
 cart.set(1,new Product(1,"s8","samsung",250,1));
 
@@ -81,6 +82,7 @@ function totalCart(){
   }
   return Number(totalCart.toFixed(2));
 };
+
 
 
 
