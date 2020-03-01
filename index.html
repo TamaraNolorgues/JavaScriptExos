@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shooping Store</title>
+
+    <!-- Bootstrap,JS and CSS links -->
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+ <!-- Navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+         <div class="container">
+            <a class="navbar-brand" href="#">SHOPPING STORE</a>
+            
+                 <!-- Basic dropdown -->
+                 <div class="dropdown">
+                    <!--Trigger-->
+                    <a class="btn btn-primary btn-sm ml-3 dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">What would you like to do</a>
+                    <!--Menu-->
+                    <div class="dropdown-menu dropdown-primary">
+                      <a class="dropdown-item" href="#">1. Check out our products</a>
+                      <a class="dropdown-item" href="#">2. Check out the items in your cart</a>
+                      <a class="dropdown-item" href="#">3. Add an item to your cart</a>
+                      <a class="dropdown-item" href="#">4. Delete an item from your cart</a>
+                      <a class="dropdown-item" href="#">5. Check out</a>
+                    </div>
+                  </div>
+                 <!-- Basic dropdown -->
+
+                 <a class="btn btn-success btn-sm ml-3 href="cart.html">
+                    <i class="fa fa-shopping-cart"></i> My Cart
+                    <span class="badge badge-light">3</span>
+                 </a>
+        </div>
+</nav>
+<!-- Navbar-->
+
+
+
+<!-- Jumbotron-->
+<section class="jumbotron text-center">
+        <div class="coontainer">
+            <h1 class="jumbotron-heading">WELCOME TO OUR STORE</h1>
+        </div>
+</section>
+<!-- Jumbotron-->
+
+
+
+<!-- Responsive table-->
+<div class="container mb-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Product ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Brand</th>
+                            <th scope="col" class="text-center">Quantity</th>
+                            <th scope="col" class="text-center">Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="img/android.jpg/" class="isize"/></td>
+                            <td>1</td>
+                            <td>s8</td>
+                            <td>Samsung</td>
+                            <td><input class="form-control" type="text" value="1"/></td>
+                            <td class="text-right">118.50 €</td>
+                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/iPhoneX.jpg/" class="isize"/></td>
+                            <td>2</td>
+                            <td>iPhoneX</td>
+                            <td>Apple</td>
+                            <td><input class="form-control" type="text" value="1"/></td>
+                            <td class="text-right">850 €</td>
+                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/blackberry.jpg/" class="isize"/></td>
+                            <td>3</td>
+                            <td>Key2</td>
+                            <td>Blackberry</td>
+                            <td><input class="form-control" type="text" value="1"/></td>
+                            <td class="text-right">230.80 €</td>
+                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>TOTAL</strong></td>
+                            <td class="text-right"><strong>178.50 €</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col mb-2">
+            <div class="row">
+                <div class="col-sm-12 col-md-8">
+                    <button class="btn btn-block btn-light">Continue Shopping</button>
+                </div>
+                <div class="col-sm-12 col-md-4 text-right">
+                    <button class="btn btn-lg btn-block btn-success text-uppercase">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Responsive table-->
+
+
+
+<!-- Footer -->
+    <footer class="text-light bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5  mx-auto text-center">
+                    <small class="d-block mb-3 text-muted"> © Tamara Nolorgues 2020 </small>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+<!-- Footer -->
+
+  </body>
+  
+</html>
